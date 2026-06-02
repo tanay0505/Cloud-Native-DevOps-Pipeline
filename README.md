@@ -1,4 +1,4 @@
-# End-to-End DevOps Platform on AWS EKS
+# Cloud-Native DevOps Pipeline
 
 ## Overview
 
