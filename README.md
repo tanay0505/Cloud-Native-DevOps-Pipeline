@@ -34,18 +34,15 @@ Prometheus & Grafana
 
 ## Tech Stack
 
-| Category                | Technology       |
-| ----------------------- | ---------------- |
-| Cloud Platform          | AWS              |
-| Infrastructure as Code  | Terraform        |
-| Containerization        | Docker           |
-| Container Orchestration | Kubernetes (EKS) |
-| CI/CD                   | GitHub Actions   |
-| GitOps                  | ArgoCD           |
-| Container Registry      | Amazon ECR       |
-| Monitoring              | Prometheus       |
-| Visualization           | Grafana          |
-| Database                | PostgreSQL       |
+| Layer | Technology |
+|-------|-----------|
+| Application | React, Node.js, PostgreSQL |
+| Containers | Docker, Docker Compose |
+| Orchestration | Kubernetes (AWS EKS) |
+| Infrastructure | Terraform |
+| CI/CD | GitHub Actions |
+| GitOps | ArgoCD + Kustomize |
+| Monitoring | Prometheus + Grafana |
 
 ---
 
