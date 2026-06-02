@@ -29,21 +29,6 @@ Microservices
     ↓
 Prometheus & Grafana
 ```
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Application | React, Node.js, PostgreSQL |
-| Containers | Docker, Docker Compose |
-| Orchestration | Kubernetes (AWS EKS) |
-| Infrastructure | Terraform |
-| CI/CD | GitHub Actions |
-| GitOps | ArgoCD + Kustomize |
-| Monitoring | Prometheus + Grafana |
-
 ---
 
 ## Key Features
@@ -114,13 +99,17 @@ Through this project, I gained hands-on experience with:
 
 ---
 
-## Future Improvements
+## Tech Stack
 
-- Automated security scanning in CI/CD pipelines
-- Horizontal Pod Autoscaling (HPA)
-- Blue-Green and Canary deployment strategies
-- Enhanced alerting and incident management
-- Multi-environment deployment support
+| Layer | Technology |
+|-------|-----------|
+| Application | React, Node.js, PostgreSQL |
+| Containers | Docker, Docker Compose |
+| Orchestration | Kubernetes (AWS EKS) |
+| Infrastructure | Terraform |
+| CI/CD | GitHub Actions |
+| GitOps | ArgoCD + Kustomize |
+| Monitoring | Prometheus + Grafana |
 
 ---
 
